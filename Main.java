@@ -7,10 +7,8 @@ class Main {
 
     //We will be using System.out.println and System.out.print throughout the year. Try using both below to see what the difference is!
 
-
-
-
-
+    System.out.println("hi");
+    System.out.print("my grade in this class is " + 100);
 
     //ANSWER: 
 
@@ -25,15 +23,25 @@ class Main {
     //For AP we need to know: int, double, boolean
 
     //List examples of the types below and give definition
-    //int (integer): 
-    //double:
-    //boolean:
+    //int (integer): -1,-2,1,2,0 = whole numbers
+    //double: 1.1, 10.2, 156.9 = decimals
+    //boolean: true, false = true or false statements
 
     //For now we are just going to work with primitive
 
     //Create 3 variables of each of the above types (USE GOOD CODING PRACTICE WHEN CREATING THE VARIABLES
 
+    int one = 1;
+    int two = 2;
+    int three = 3;
 
+    double grade = 98.9;
+    double height = 6.7;
+    double temp = 88.9;
+    
+    boolean cool = true;
+    boolean mean = false;
+    boolean smart = true;
 
 
 
@@ -44,6 +52,9 @@ class Main {
 
     //Try doing some math operations with numbers. How can we check to see if the math worked?
 
+    System.out.println(7/3);
+    System.out.println(7.0/3.5);
+    
     //Create codes that will print the following:
 
     //Odd integers from 1 to 100, inclusive of both
